@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-size: 18px;
+  font-family: "Barlow";
+}
+
+.section1 {
+  background-image: url(images/desktop/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2em;
+  height: 100vh;
+}
+
+.logo {
+  padding-left: 2em;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.button {
+  background-color: white;
+  font-family: "Fraunces", serif;
+  color: #23303e;
+  text-transform: uppercase;
+  padding: 0.8em 1.5em;
+  margin-right: 2em;
+  border-radius: 1.5em;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  padding-top: 3em;
+  font-family: "Fraunces", serif;
+  letter-spacing: 0.3em;
+}
+
+.down-arrow {
+  padding-top: 8em;
+}
+
+.section2,
+.section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box-text {
+  max-width: 61%;
+}
+
+.box-text h2 {
+  font-family: "Fraunces", serif;
+  font-size: 2.2em;
+  color: #23303e;
+}
+
+.box-text p {
+  color: #818498;
+  line-height: 1.5em;
+}
+
+.box-text a {
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #23303e;
+}
+/*# sourceMappingURL=style.css.map */
